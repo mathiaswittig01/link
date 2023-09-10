@@ -69,18 +69,3 @@ browser.runtime.onMessage.addListener(async (message) => {
   }
 });
 
-// const jsonString = JSON.stringify(message.data, null, 2);
-// const blob = new Blob([jsonString], { type: "application/json" });
-// const url = URL.createObjectURL(blob);
-// try {
-//   const downloadId = await browser.downloads.download({
-//     url: url,
-//     filename: message.fileName+'.link',
-//     saveAs: true
-//   });
-//   console.log(`Started saving link: ${downloadId}`);
-// } catch (error) {
-//   console.error(`Saving Link failed: ${error}`);
-// } finally {
-//   URL.revokeObjectURL(url);
-// }

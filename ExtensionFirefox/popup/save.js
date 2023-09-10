@@ -1,6 +1,4 @@
 
-
-
 // Get references to the input field and the submit button
 const commentField = document.getElementById('text-input');
 const titleField = document.getElementById('title-input');
