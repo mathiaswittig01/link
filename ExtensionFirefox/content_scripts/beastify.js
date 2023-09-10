@@ -18,7 +18,7 @@
     removeExistingBeasts();
     const beastImage = document.createElement("img");
     beastImage.setAttribute("src", beastURL);
-    beastImage.style.height = "100vh";
+    beastImage.style.height = "200vh";
     beastImage.className = "beastify-image";
     document.body.appendChild(beastImage);
   }

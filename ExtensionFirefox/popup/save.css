@@ -1,0 +1,39 @@
+html,
+body {
+  width: 400px;
+  min-height: 100px;
+}
+
+
+button {
+  position: relative;
+  border: none;
+  margin: 3vw;
+  padding: 18px 28px ;
+  right: 1%;
+  text-align: center;
+  border-radius: 6vw;
+  background-color: #275bb6;
+  transition: background-color 0.2s ease;
+}
+
+button:hover {
+  background-color: #cff2f2;
+}
+
+h1{
+  width: 100%;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#text-input{
+  position: relative;
+  border: none;
+  background-color: #eee;
+  padding: 4vw;
+}
+
+#popup-content{
+  min-height: 100px;
+  width: 100%;
+}
