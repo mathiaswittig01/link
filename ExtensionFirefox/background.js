@@ -29,21 +29,53 @@ function saveLink() {
 //actually save json file
 browser.runtime.onMessage.addListener(async (message) => {
   if (message.action === "download") {
-    const jsonString = JSON.stringify(message.data, null, 2);
-    const blob = new Blob([jsonString], { type: "application/json" });
-    const url = URL.createObjectURL(blob);
-    try {
-      const downloadId = await browser.downloads.download({
+
+
+    browser.tabs.query({ active: true, currentWindow: true }).then((tabs) => {
+      const currentUrl = tabs[0].url;
+      const currentTitle = tabs[0].title;
+
+      fileContent = { 
+        title: currentTitle, 
+        url: currentUrl,
+        note: message.data.note
+      }
+
+
+      const jsonString = JSON.stringify(fileContent, null, 2);
+      const blob = new Blob([jsonString], { type: "application/json" });
+      const url = URL.createObjectURL(blob);
+      
+      browser.downloads.download({
         url: url,
-        filename: 'sample.json',
+        filename: message.fileName+'.link',
         saveAs: true
+      })
+      .then((downloadId) => {
+        console.log(`Started download: ${downloadId}`);
+        URL.revokeObjectURL(url);  // Revoke the blob URL
+      })
+      .catch((error) => {
+        console.error(`Download failed: ${error}`);
+        URL.revokeObjectURL(url);  // Revoke the blob URL
       });
-      console.log(`Started saving link: ${downloadId}`);
-    } catch (error) {
-      console.error(`Saving Link failed: ${error}`);
-    } finally {
-      URL.revokeObjectURL(url);
-    }
+    });
+
   }
 });
 
+// const jsonString = JSON.stringify(message.data, null, 2);
+// const blob = new Blob([jsonString], { type: "application/json" });
+// const url = URL.createObjectURL(blob);
+// try {
+//   const downloadId = await browser.downloads.download({
+//     url: url,
+//     filename: message.fileName+'.link',
+//     saveAs: true
+//   });
+//   console.log(`Started saving link: ${downloadId}`);
+// } catch (error) {
+//   console.error(`Saving Link failed: ${error}`);
+// } finally {
+//   URL.revokeObjectURL(url);
+// }

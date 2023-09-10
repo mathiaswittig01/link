@@ -18,12 +18,19 @@ button {
 }
 
 button:hover {
-  background-color: #cff2f2;
+  background-color: #85a3d7;
 }
 
 h1{
   width: 100%;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#title-input{
+  position: relative;
+  border: none;
+  background-color: #eee;
+  padding: 4vw;
 }
 
 #text-input{
@@ -36,4 +43,8 @@ h1{
 #popup-content{
   min-height: 100px;
   width: 100%;
+}
+
+.pressed {
+  background-color: #85a3d7;
 }

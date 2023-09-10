@@ -5,7 +5,8 @@
   "permissions": [
     "contextMenus",
     "filePicker",
-    "downloads"
+    "downloads",
+    "tabs"
   ],
   "background": {
     "scripts": ["background.js"]
