@@ -42,7 +42,7 @@ browser.runtime.onMessage.addListener(async (message) => {
       fileContent = { 
         title: currentTitle, 
         url: currentUrl,
-        note: message.data.note,
+        comment: message.data.comment,
         date: utcDateTimeString
       }
 

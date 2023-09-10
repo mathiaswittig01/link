@@ -2,16 +2,16 @@
 
 
 // Get references to the input field and the submit button
-const inputField = document.getElementById('text-input');
+const commentField = document.getElementById('text-input');
 const titleField = document.getElementById('title-input');
 
 const submitButton = document.getElementById('submit-button');
 
 title = "";
-note = "";
+comment = "";
 
 // Add an event listener to the input field
-inputField.addEventListener('input', (event) => {
+commentField.addEventListener('input', (event) => {
   const userInput = event.target.value;
 });
 
@@ -64,7 +64,7 @@ document.addEventListener('DOMContentLoaded', () => {
 function submit(){
 
   title = titleField.value;
-  note = inputField.value;
+  comment = commentField.value;
 
   defaultFileName = title;
   if (defaultFileName === "") {
@@ -74,7 +74,7 @@ function submit(){
   browser.runtime.sendMessage({action: "download", fileName: defaultFileName, 
   data: 
     { title: title, 
-      note: note
+      comment: comment
     }
   });
 }
