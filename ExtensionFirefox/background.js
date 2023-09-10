@@ -35,10 +35,15 @@ browser.runtime.onMessage.addListener(async (message) => {
       const currentUrl = tabs[0].url;
       const currentTitle = tabs[0].title;
 
+      const currentDate = new Date();
+      const utcDateTimeString = currentDate.toISOString();
+
+
       fileContent = { 
         title: currentTitle, 
         url: currentUrl,
-        note: message.data.note
+        note: message.data.note,
+        date: utcDateTimeString
       }
 
 
