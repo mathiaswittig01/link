@@ -25,6 +25,7 @@ function saveLink() {
 }
 
 
+const version = 1;
 
 //actually save json file
 browser.runtime.onMessage.addListener(async (message) => {
@@ -43,7 +44,8 @@ browser.runtime.onMessage.addListener(async (message) => {
         title: currentTitle, 
         url: currentUrl,
         comment: message.data.comment,
-        date: utcDateTimeString
+        date: utcDateTimeString,
+        version: version
       }
 
 
