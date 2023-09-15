@@ -1,0 +1,1 @@
+..\..\link\build\windows\runner\Release\link.exe

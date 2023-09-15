@@ -1,0 +1,6 @@
+obj\Debug\Product.wixobj
+C:\Users\Mathias\Documents\GitHub\link\Flutter\Link Opener\Link Opener\bin\Debug\Link_Opener.msi
+C:\Users\Mathias\Documents\GitHub\link\Flutter\Link Opener\Link Opener\bin\Debug\Link_Opener.wixpdb
+obj\Debug\Link Opener.wixproj.BindContentsFileListnull.txt
+obj\Debug\Link Opener.wixproj.BindOutputsFileListnull.txt
+obj\Debug\Link Opener.wixproj.BindBuiltOutputsFileListnull.txt
