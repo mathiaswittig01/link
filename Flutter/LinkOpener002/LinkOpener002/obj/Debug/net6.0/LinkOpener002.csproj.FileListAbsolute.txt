@@ -1,17 +1,17 @@
-C:\Users\Mathias\Documents\GitHub\link\Flutter\LinkOpener002\LinkOpener002\bin\Debug\net6.0\LinkOpener002.exe
-C:\Users\Mathias\Documents\GitHub\link\Flutter\LinkOpener002\LinkOpener002\bin\Debug\net6.0\LinkOpener002.deps.json
-C:\Users\Mathias\Documents\GitHub\link\Flutter\LinkOpener002\LinkOpener002\bin\Debug\net6.0\LinkOpener002.runtimeconfig.json
-C:\Users\Mathias\Documents\GitHub\link\Flutter\LinkOpener002\LinkOpener002\bin\Debug\net6.0\LinkOpener002.dll
-C:\Users\Mathias\Documents\GitHub\link\Flutter\LinkOpener002\LinkOpener002\bin\Debug\net6.0\LinkOpener002.pdb
 C:\Users\Mathias\Documents\GitHub\link\Flutter\LinkOpener002\LinkOpener002\obj\Debug\net6.0\LinkOpener002.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\Mathias\Documents\GitHub\link\Flutter\LinkOpener002\LinkOpener002\obj\Debug\net6.0\LinkOpener002.AssemblyInfoInputs.cache
 C:\Users\Mathias\Documents\GitHub\link\Flutter\LinkOpener002\LinkOpener002\obj\Debug\net6.0\LinkOpener002.AssemblyInfo.cs
 C:\Users\Mathias\Documents\GitHub\link\Flutter\LinkOpener002\LinkOpener002\obj\Debug\net6.0\LinkOpener002.csproj.CoreCompileInputs.cache
-C:\Users\Mathias\Documents\GitHub\link\Flutter\LinkOpener002\LinkOpener002\obj\Debug\net6.0\LinkOpener002.dll
-C:\Users\Mathias\Documents\GitHub\link\Flutter\LinkOpener002\LinkOpener002\obj\Debug\net6.0\refint\LinkOpener002.dll
-C:\Users\Mathias\Documents\GitHub\link\Flutter\LinkOpener002\LinkOpener002\obj\Debug\net6.0\LinkOpener002.pdb
 C:\Users\Mathias\Documents\GitHub\link\Flutter\LinkOpener002\LinkOpener002\obj\Debug\net6.0\LinkOpener002.genruntimeconfig.cache
-C:\Users\Mathias\Documents\GitHub\link\Flutter\LinkOpener002\LinkOpener002\obj\Debug\net6.0\ref\LinkOpener002.dll
 C:\Users\Mathias\Documents\GitHub\link\Flutter\LinkOpener002\LinkOpener002\bin\Debug\net6.0\Newtonsoft.Json.dll
 C:\Users\Mathias\Documents\GitHub\link\Flutter\LinkOpener002\LinkOpener002\obj\Debug\net6.0\LinkOpener002.csproj.AssemblyReference.cache
 C:\Users\Mathias\Documents\GitHub\link\Flutter\LinkOpener002\LinkOpener002\obj\Debug\net6.0\LinkOpener002.csproj.CopyComplete
+C:\Users\Mathias\Documents\GitHub\link\Flutter\LinkOpener002\LinkOpener002\bin\Debug\net6.0\Link Opener.exe
+C:\Users\Mathias\Documents\GitHub\link\Flutter\LinkOpener002\LinkOpener002\bin\Debug\net6.0\Link Opener.deps.json
+C:\Users\Mathias\Documents\GitHub\link\Flutter\LinkOpener002\LinkOpener002\bin\Debug\net6.0\Link Opener.runtimeconfig.json
+C:\Users\Mathias\Documents\GitHub\link\Flutter\LinkOpener002\LinkOpener002\bin\Debug\net6.0\Link Opener.dll
+C:\Users\Mathias\Documents\GitHub\link\Flutter\LinkOpener002\LinkOpener002\bin\Debug\net6.0\Link Opener.pdb
+C:\Users\Mathias\Documents\GitHub\link\Flutter\LinkOpener002\LinkOpener002\obj\Debug\net6.0\Link Opener.dll
+C:\Users\Mathias\Documents\GitHub\link\Flutter\LinkOpener002\LinkOpener002\obj\Debug\net6.0\refint\Link Opener.dll
+C:\Users\Mathias\Documents\GitHub\link\Flutter\LinkOpener002\LinkOpener002\obj\Debug\net6.0\Link Opener.pdb
+C:\Users\Mathias\Documents\GitHub\link\Flutter\LinkOpener002\LinkOpener002\obj\Debug\net6.0\ref\Link Opener.dll
