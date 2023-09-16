@@ -1,8 +1,3 @@
-C:\Users\Mathias\Documents\GitHub\link\Flutter\LinkOpener002\LinkOpener002\bin\Release\net6.0\win-x64\LinkOpener002.exe
-C:\Users\Mathias\Documents\GitHub\link\Flutter\LinkOpener002\LinkOpener002\bin\Release\net6.0\win-x64\LinkOpener002.deps.json
-C:\Users\Mathias\Documents\GitHub\link\Flutter\LinkOpener002\LinkOpener002\bin\Release\net6.0\win-x64\LinkOpener002.runtimeconfig.json
-C:\Users\Mathias\Documents\GitHub\link\Flutter\LinkOpener002\LinkOpener002\bin\Release\net6.0\win-x64\LinkOpener002.dll
-C:\Users\Mathias\Documents\GitHub\link\Flutter\LinkOpener002\LinkOpener002\bin\Release\net6.0\win-x64\LinkOpener002.pdb
 C:\Users\Mathias\Documents\GitHub\link\Flutter\LinkOpener002\LinkOpener002\bin\Release\net6.0\win-x64\Microsoft.CSharp.dll
 C:\Users\Mathias\Documents\GitHub\link\Flutter\LinkOpener002\LinkOpener002\bin\Release\net6.0\win-x64\Microsoft.VisualBasic.Core.dll
 C:\Users\Mathias\Documents\GitHub\link\Flutter\LinkOpener002\LinkOpener002\bin\Release\net6.0\win-x64\Microsoft.VisualBasic.dll
@@ -230,8 +225,15 @@ C:\Users\Mathias\Documents\GitHub\link\Flutter\LinkOpener002\LinkOpener002\obj\R
 C:\Users\Mathias\Documents\GitHub\link\Flutter\LinkOpener002\LinkOpener002\obj\Release\net6.0\win-x64\LinkOpener002.AssemblyInfo.cs
 C:\Users\Mathias\Documents\GitHub\link\Flutter\LinkOpener002\LinkOpener002\obj\Release\net6.0\win-x64\LinkOpener002.csproj.CoreCompileInputs.cache
 C:\Users\Mathias\Documents\GitHub\link\Flutter\LinkOpener002\LinkOpener002\obj\Release\net6.0\win-x64\LinkOpener002.csproj.CopyComplete
-C:\Users\Mathias\Documents\GitHub\link\Flutter\LinkOpener002\LinkOpener002\obj\Release\net6.0\win-x64\LinkOpener002.dll
-C:\Users\Mathias\Documents\GitHub\link\Flutter\LinkOpener002\LinkOpener002\obj\Release\net6.0\win-x64\refint\LinkOpener002.dll
-C:\Users\Mathias\Documents\GitHub\link\Flutter\LinkOpener002\LinkOpener002\obj\Release\net6.0\win-x64\LinkOpener002.pdb
 C:\Users\Mathias\Documents\GitHub\link\Flutter\LinkOpener002\LinkOpener002\obj\Release\net6.0\win-x64\LinkOpener002.genruntimeconfig.cache
-C:\Users\Mathias\Documents\GitHub\link\Flutter\LinkOpener002\LinkOpener002\obj\Release\net6.0\win-x64\ref\LinkOpener002.dll
+C:\Users\Mathias\Documents\GitHub\link\Flutter\LinkOpener002\LinkOpener002\bin\Release\net6.0\win-x64\Link Opener.exe
+C:\Users\Mathias\Documents\GitHub\link\Flutter\LinkOpener002\LinkOpener002\bin\Release\net6.0\win-x64\Link Opener.deps.json
+C:\Users\Mathias\Documents\GitHub\link\Flutter\LinkOpener002\LinkOpener002\bin\Release\net6.0\win-x64\Link Opener.runtimeconfig.json
+C:\Users\Mathias\Documents\GitHub\link\Flutter\LinkOpener002\LinkOpener002\bin\Release\net6.0\win-x64\Link Opener.dll
+C:\Users\Mathias\Documents\GitHub\link\Flutter\LinkOpener002\LinkOpener002\bin\Release\net6.0\win-x64\Link Opener.pdb
+C:\Users\Mathias\Documents\GitHub\link\Flutter\LinkOpener002\LinkOpener002\bin\Release\net6.0\win-x64\Newtonsoft.Json.dll
+C:\Users\Mathias\Documents\GitHub\link\Flutter\LinkOpener002\LinkOpener002\obj\Release\net6.0\win-x64\LinkOpener002.csproj.AssemblyReference.cache
+C:\Users\Mathias\Documents\GitHub\link\Flutter\LinkOpener002\LinkOpener002\obj\Release\net6.0\win-x64\Link Opener.dll
+C:\Users\Mathias\Documents\GitHub\link\Flutter\LinkOpener002\LinkOpener002\obj\Release\net6.0\win-x64\refint\Link Opener.dll
+C:\Users\Mathias\Documents\GitHub\link\Flutter\LinkOpener002\LinkOpener002\obj\Release\net6.0\win-x64\Link Opener.pdb
+C:\Users\Mathias\Documents\GitHub\link\Flutter\LinkOpener002\LinkOpener002\obj\Release\net6.0\win-x64\ref\Link Opener.dll

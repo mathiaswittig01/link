@@ -1,5 +1,2 @@
-..\LinkOpener002\bin\Debug\net6.0\Link Opener.deps.json
-..\LinkOpener002\bin\Debug\net6.0\Link Opener.dll
-..\LinkOpener002\bin\Debug\net6.0\Link Opener.exe
-..\LinkOpener002\bin\Debug\net6.0\Link Opener.runtimeconfig.json
+..\example.exe
 ..\LinkOpener002\bin\Debug\net6.0\Newtonsoft.Json.dll
