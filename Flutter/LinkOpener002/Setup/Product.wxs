@@ -18,8 +18,11 @@
 					
 					
 					<Component Id="ApplicationFiles" Guid="6925fbea-3231-4278-96d7-963a5a96a6a4">
-						<File Id="LinkOpener002_exe" Source="..\example.exe" KeyPath="yes"/>
-						
+						<!--<File Id="LinkOpener002_exe" Source="..\example.exe" KeyPath="yes"/>-->
+						<File Id="LinkOpener002_exe" Source="..\LinkOpener002\bin\Debug\net6.0\Link Opener.exe" KeyPath="yes"/>
+						<File Id="LinkOpener002_dll" Source="..\LinkOpener002\bin\Debug\net6.0\Link Opener.dll"/>
+						<File Id="LinkOpener002_deps" Source="..\LinkOpener002\bin\Debug\net6.0\Link Opener.deps.json"/>
+						<File Id="LinkOpener002_runtimeconfig" Source="..\LinkOpener002\bin\Debug\net6.0\Link Opener.runtimeconfig.json"/>
 
 						<ProgId Id="mathias-wittig.LinkOpener" Description="Link">
 							<Extension Id="link" ContentType="application/x-yourapp-link">
