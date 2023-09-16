@@ -1,3 +1,2 @@
-C:\Users\Mathias\Documents\GitHub\link\Flutter\LinkOpener002\Setup\bin\Debug\cab1.cab
 C:\Users\Mathias\Documents\GitHub\link\Flutter\LinkOpener002\Setup\bin\Debug\Setup.msi
 C:\Users\Mathias\Documents\GitHub\link\Flutter\LinkOpener002\Setup\bin\Debug\Setup.wixpdb
