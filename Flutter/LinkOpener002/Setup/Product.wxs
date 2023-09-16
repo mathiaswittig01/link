@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Wix xmlns="http://schemas.microsoft.com/wix/2006/wi">
-	<Product Id="*" Name="YourAppName" Version="1.0.0.0" Manufacturer="YourCompany" Language="1033" UpgradeCode="2e31f8ac-86d7-4d02-a3f2-05a4023555a2">
+	<Product Id="*" Name="LinkOpener002" Version="1.0.0.0" Manufacturer="YourCompany" Language="1033" UpgradeCode="2e31f8ac-86d7-4d02-a3f2-05a4023555a2">
 		<Package InstallerVersion="200" Compressed="yes" InstallScope="perMachine" />
 		<MajorUpgrade DowngradeErrorMessage="A newer version of [ProductName] is already installed." />
 		<MediaTemplate />
@@ -11,12 +11,15 @@
 
 		<Directory Id="TARGETDIR" Name="SourceDir">
 			<Directory Id="ProgramFilesFolder">
-				<Directory Id="INSTALLFOLDER" Name="YourAppName">
+				<Directory Id="INSTALLFOLDER" Name="LinkOpener002">
 					<Component Id="ApplicationFiles" Guid="6925fbea-3231-4278-96d7-963a5a96a6a4">
-						<File Id="YourAppExe" Source="..\LinkOpener002\bin\Debug\net6.0\LinkOpener002.exe" KeyPath="yes"/>
+						<File Id="LinkOpener002_exe" Source="..\LinkOpener002\bin\Debug\net6.0\LinkOpener002.exe" KeyPath="yes"/>
+						<File Id="LinkOpener002_dll" Source="..\LinkOpener002\bin\Debug\net6.0\LinkOpener002.dll"/>
+						<File Id="LinkOpener002_deps" Source="..\LinkOpener002\bin\Debug\net6.0\LinkOpener002.deps.json"/>
+						<File Id="LinkOpener002_runtimeconfig" Source="..\LinkOpener002\bin\Debug\net6.0\LinkOpener002.runtimeconfig.json"/>
 						<ProgId Id="your.unique.progid" Description="Your File Description">
 							<Extension Id="link" ContentType="application/x-yourapp-link">
-								<Verb Id="open" Command="Open" TargetFile="YourAppExe" Argument="&quot;%1&quot;"/>
+								<Verb Id="open" Command="Open" TargetFile="LinkOpener002_exe" Argument="&quot;%1&quot;"/>
 							</Extension>
 						</ProgId>
 					</Component>

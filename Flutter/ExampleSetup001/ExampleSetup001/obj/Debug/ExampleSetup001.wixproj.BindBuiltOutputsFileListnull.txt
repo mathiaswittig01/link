@@ -1,0 +1,2 @@
+C:\Users\Mathias\Documents\GitHub\link\Flutter\ExampleSetup001\ExampleSetup001\bin\Debug\ExampleSetup001.msi
+C:\Users\Mathias\Documents\GitHub\link\Flutter\ExampleSetup001\ExampleSetup001\bin\Debug\ExampleSetup001.wixpdb
