@@ -13,16 +13,19 @@
 			<Directory Id="ProgramFilesFolder">
 				<Directory Id="INSTALLFOLDER" Name="LinkOpener002">
 					<Component Id="ApplicationFiles" Guid="6925fbea-3231-4278-96d7-963a5a96a6a4">
-						<File Id="LinkOpener002_exe" Source="..\example.exe" KeyPath="yes"/>
-						<!--<File Id="LinkOpener002_exe" Source="..\LinkOpener002\bin\Debug\net6.0\LinkOpener002.exe" KeyPath="yes"/>
+						<!--<File Id="LinkOpener002_exe" Source="..\example.exe" KeyPath="yes"/>-->
+						<File Id="LinkOpener002_exe" Source="..\LinkOpener002\bin\Debug\net6.0\LinkOpener002.exe" KeyPath="yes"/>
 						<File Id="LinkOpener002_dll" Source="..\LinkOpener002\bin\Debug\net6.0\LinkOpener002.dll"/>
 						<File Id="LinkOpener002_deps" Source="..\LinkOpener002\bin\Debug\net6.0\LinkOpener002.deps.json"/>
-						<File Id="LinkOpener002_runtimeconfig" Source="..\LinkOpener002\bin\Debug\net6.0\LinkOpener002.runtimeconfig.json"/>-->
+						<File Id="LinkOpener002_runtimeconfig" Source="..\LinkOpener002\bin\Debug\net6.0\LinkOpener002.runtimeconfig.json"/>
 						<ProgId Id="your.unique.progid" Description="Your File Description">
 							<Extension Id="link" ContentType="application/x-yourapp-link">
 								<Verb Id="open" Command="Open" TargetFile="LinkOpener002_exe" Argument="&quot;%1&quot;"/>
 							</Extension>
 						</ProgId>
+					</Component>
+					<Component Id="NewtonsoftJson" Guid="676bcb24-12ad-492c-b30c-c936453aaab9">
+						<File Id="NewtonsoftJsonDll" Source="..\LinkOpener002\bin\Debug\net6.0\Newtonsoft.Json.dll" KeyPath="yes"/>
 					</Component>
 				</Directory>
 			</Directory>
@@ -30,6 +33,7 @@
 
 		<ComponentGroup Id="ProductComponents">
 			<ComponentRef Id="ApplicationFiles"/>
+			<ComponentRef Id="NewtonsoftJson"/>
 		</ComponentGroup>
 	</Product>
 </Wix>

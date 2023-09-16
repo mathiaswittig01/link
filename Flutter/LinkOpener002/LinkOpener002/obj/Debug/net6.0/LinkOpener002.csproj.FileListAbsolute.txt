@@ -12,3 +12,6 @@ C:\Users\Mathias\Documents\GitHub\link\Flutter\LinkOpener002\LinkOpener002\obj\D
 C:\Users\Mathias\Documents\GitHub\link\Flutter\LinkOpener002\LinkOpener002\obj\Debug\net6.0\LinkOpener002.pdb
 C:\Users\Mathias\Documents\GitHub\link\Flutter\LinkOpener002\LinkOpener002\obj\Debug\net6.0\LinkOpener002.genruntimeconfig.cache
 C:\Users\Mathias\Documents\GitHub\link\Flutter\LinkOpener002\LinkOpener002\obj\Debug\net6.0\ref\LinkOpener002.dll
+C:\Users\Mathias\Documents\GitHub\link\Flutter\LinkOpener002\LinkOpener002\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Users\Mathias\Documents\GitHub\link\Flutter\LinkOpener002\LinkOpener002\obj\Debug\net6.0\LinkOpener002.csproj.AssemblyReference.cache
+C:\Users\Mathias\Documents\GitHub\link\Flutter\LinkOpener002\LinkOpener002\obj\Debug\net6.0\LinkOpener002.csproj.CopyComplete

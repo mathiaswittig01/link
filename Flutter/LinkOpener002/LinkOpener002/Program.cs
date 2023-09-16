@@ -1,7 +1,9 @@
 ﻿using Microsoft.Win32;
+using Newtonsoft.Json.Linq;
 using System;
 using System.Diagnostics;
 using System.IO;
+using System.Xml.Linq;
 
 namespace LinkOpener
 {
@@ -14,12 +16,55 @@ namespace LinkOpener
 
             Console.WriteLine("Hello");
 
-            // Open the URL in the default web browser
-            Process.Start(new ProcessStartInfo
+
+
+            if (args.Length > 0)
             {
-                FileName = "https://mathias-wittig.com/",
-                UseShellExecute = true
-            });
+                string filePath = args[0];
+                if (File.Exists(filePath))
+                {
+                    string content = File.ReadAllText(filePath);
+                    try
+                    {
+                        JObject jsonObj = JObject.Parse(content);
+                        string url = (string)jsonObj["url"];
+                        Console.WriteLine("The url is:" + url);
+
+                        if (!string.IsNullOrEmpty(url))
+                        {
+                            Process.Start(new ProcessStartInfo
+                            {
+                                FileName = url,
+                                UseShellExecute = true
+                            });
+                        }
+                        else
+                        {
+                            Console.WriteLine("The 'url' property is empty or null.");
+                        }
+                    }
+                    catch (Exception e)
+                    {
+                        Console.WriteLine($"An error occurred: {e.Message}");
+                    }
+                }
+                else
+                {
+                    Console.WriteLine("File does not exist.");
+                }
+            }
+            else
+            {
+                Console.WriteLine("No file argument provided.");
+            }
+
+
+            // Open the URL in the default web browser
+            //Process.Start(new ProcessStartInfo
+            //{
+            //    FileName = "https://mathias-wittig.com/",
+            //    UseShellExecute = true
+            //});
 
 
             // Keep the console window open until a key is pressed.
