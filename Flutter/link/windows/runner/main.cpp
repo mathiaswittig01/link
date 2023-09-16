@@ -1,16 +1,25 @@
-#include <Windows.h>
+#include <windows.h>
+#include <shellapi.h>
+#include <iostream>
+#include <string>
 
-void OpenPredefinedURL() {
-  ShellExecute(0, 0, L"https://mathias-wittig.com/", 0, 0, SW_SHOW);
-}
-
-int APIENTRY wWinMain(_In_ HINSTANCE hInstance,
+int APIENTRY WinMain(_In_ HINSTANCE hInstance,
                      _In_opt_ HINSTANCE hPrevInstance,
-                     _In_ LPWSTR    lpCmdLine,
+                     _In_ LPSTR    lpCmdLine,
                      _In_ int       nCmdShow) {
-  if (__argc > 1) {
-    // Open the predefined URL regardless of what the .link file contains.
-    OpenPredefinedURL();
+
+  // Capture the command line arguments
+  std::string cmdLine(lpCmdLine);
+
+  // Check if a .link file was passed as an argument
+  if (cmdLine.find(".link") != std::string::npos) {
+    // Open the URL using the default web browser
+    ShellExecute(NULL, L"open", L"https://mathias-wittig.com", NULL, NULL, SW_SHOWNORMAL);
+    return 0;  // Exit if a .link file was handled
   }
+  
+  // Your usual Flutter Windows initialization code and main loop would go here.
+  // ...
+
   return 0;
 }
