@@ -1,2 +1,0 @@
-C:\Users\Mathias\Documents\GitHub\link\Flutter\Link Opener\Link Opener\bin\Debug\Link_Opener.msi
-C:\Users\Mathias\Documents\GitHub\link\Flutter\Link Opener\Link Opener\bin\Debug\Link_Opener.wixpdb
