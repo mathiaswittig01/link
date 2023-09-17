@@ -1,0 +1,36 @@
+{
+  
+  "manifest_version": 2,
+  "name": "Link Saver",
+  "version": "1.0",
+  "permissions": [
+    "contextMenus",
+    "downloads",
+    "tabs",
+    "notifications"
+  ],
+  "background": {
+    "scripts": ["background.js"]
+  },
+
+
+  "commands": {
+    "saveLink": {
+      "suggested_key": {
+        "default": "Ctrl+Shift+K",
+        "mac": "Command+Shift+K"
+      },
+      "description": "Save Link"
+    }
+  },
+
+  "browser_action": {
+    "default_icon": "icons/icon_128.png",
+    "default_title": "Save Link",
+    "default_popup": "popup/save.html"
+  },
+
+  "icons": {
+    "128": "icons/icon_128.png"
+  }
+}

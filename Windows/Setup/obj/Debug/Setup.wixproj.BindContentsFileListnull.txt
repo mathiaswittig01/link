@@ -1,0 +1,2 @@
+..\LinkOpener002\bin\Release\net6.0\win-x64\publish\Link Opener.exe
+..\LinkOpener002\bin\Debug\net6.0\Newtonsoft.Json.dll

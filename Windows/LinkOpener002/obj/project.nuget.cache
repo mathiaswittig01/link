@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "NaaasMKlgehAfzVUROq/Rd9RqrTUkjpYC33zf2tcElIhYFnJO1laWnJjmAudSXHPAeAzIMTeKzt7HK2rTcv0/Q==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Mathias\\Documents\\GitHub\\link\\Flutter\\LinkOpener002\\LinkOpener002\\LinkOpener002.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Mathias\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

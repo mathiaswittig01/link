@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Wix xmlns="http://schemas.microsoft.com/wix/2006/wi">
+	<Product Id="*" Name="Link Opener" Version="1.0.0.0" Manufacturer="Mathias Wittig" Language="1033" UpgradeCode="2e31f8ac-86d7-4d02-a3f2-05a4023555a2">
+		<Package InstallerVersion="200" Compressed="yes" InstallScope="perMachine" />
+		<MajorUpgrade DowngradeErrorMessage="A newer version of [ProductName] is already installed." />
+		<MediaTemplate EmbedCab="yes"/>
+
+		<Icon Id="AppIcon.ico" SourceFile="..\..\..\icon.ico"/>
+		<Property Id="ARPPRODUCTICON" Value="AppIcon.ico" />
+
+		<Feature Id="ProductFeature" Title="Main Feature" Level="1">
+			<ComponentGroupRef Id="ProductComponents" />
+		</Feature>
+
+		<Directory Id="TARGETDIR" Name="SourceDir">
+			<Directory Id="ProgramFilesFolder">
+				<Directory Id="INSTALLFOLDER" Name="Link Opener">
+					
+					
+					<Component Id="ApplicationFiles" Guid="6925fbea-3231-4278-96d7-963a5a96a6a4">
+						<File Id="LinkOpener002_exe" Source="..\LinkOpener002\bin\Release\net6.0\win-x64\publish\Link Opener.exe" KeyPath="yes"/>
+						
+
+						<ProgId Id="mathias-wittig.LinkOpener" Description="Link">
+							<Extension Id="link" ContentType="application/x-yourapp-link">
+								<Verb Id="open" Command="Open" TargetFile="LinkOpener002_exe" Argument="&quot;%1&quot;"/>
+							</Extension>
+						</ProgId>
+						
+					</Component>
+					
+					<Component Id="NewtonsoftJson" Guid="676bcb24-12ad-492c-b30c-c936453aaab9">
+						<File Id="NewtonsoftJsonDll" Source="..\LinkOpener002\bin\Debug\net6.0\Newtonsoft.Json.dll" KeyPath="yes"/>
+					</Component>
+					
+				</Directory>
+			</Directory>
+		</Directory>
+
+		<ComponentGroup Id="ProductComponents">
+			<ComponentRef Id="ApplicationFiles"/>
+			<ComponentRef Id="NewtonsoftJson"/>
+		</ComponentGroup>
+	</Product>
+</Wix>
