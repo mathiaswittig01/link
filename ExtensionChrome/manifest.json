@@ -5,8 +5,7 @@
   "permissions": [
     "contextMenus",
     "downloads",
-    "tabs",
-    "notifications"
+    "tabs"
   ],
   "background": {
     "service_worker": "background.js"
