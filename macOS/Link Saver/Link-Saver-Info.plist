@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>&lt;?xml version="1.0" encoding="UTF-8"?&gt;
+&lt;!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd"&gt;
+&lt;plist version="1.0"&gt;
+&lt;array&gt;
+	&lt;dict&gt;
+		&lt;key&gt;CFBundleTypeName&lt;/key&gt;
+		&lt;string&gt;&lt;/string&gt;
+		&lt;key&gt;LSHandlerRank&lt;/key&gt;
+		&lt;string&gt;Default&lt;/string&gt;
+	&lt;/dict&gt;
+&lt;/array&gt;
+&lt;/plist&gt;
+&lt;?xml version="1.0" encoding="UTF-8"?&gt;
+&lt;!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd"&gt;
+&lt;plist version="1.0"&gt;
+&lt;array&gt;
+	&lt;dict&gt;
+		&lt;key&gt;CFBundleTypeName&lt;/key&gt;
+		&lt;string&gt;&lt;/string&gt;
+		&lt;key&gt;LSHandlerRank&lt;/key&gt;
+		&lt;string&gt;Default&lt;/string&gt;
+	&lt;/dict&gt;
+&lt;/array&gt;
+&lt;/plist&gt;
+CFBundleDocumentTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleTypeExtensions</key>
+			<array>
+				<string>link</string>
+			</array>
+			<key>CFBundleTypeName</key>
+			<string>Link File</string>
+			<key>CFBundleTypeRole</key>
+			<string>Editor</string>
+		</dict>
+	</array>
+</dict>
+</plist>
