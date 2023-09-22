@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
   "name": "Link Saver",
-  "version": "1.0",
+  "version": "1.0.1",
   "permissions": [
     "contextMenus",
     "filePicker",
@@ -16,7 +16,7 @@
     "saveLink": {
       "suggested_key": {
         "default": "Ctrl+Alt+S",
-        "mac": "Command+Shift+S"
+        "mac": "Command+Alt+S"
       },
       "description": "Save Link"
     }
